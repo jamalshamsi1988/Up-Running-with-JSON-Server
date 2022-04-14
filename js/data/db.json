@@ -1,0 +1,38 @@
+{
+    "post":[
+        {
+            "id":1 ,
+            "title":"Welcome to the new bolg",
+            "body":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quae iste harum accusamus ducimus est animi eligendi distinctio reiciendis deleniti?",
+            "likes":30
+        },
+   
+        {
+            "id":2 ,
+            "title":"How cto be a Programmer",
+            "body":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quae iste harum accusamus ducimus est animi eligendi distinctio reiciendis deleniti?",
+            "likes":15
+        },
+      
+        {
+            "id":3  ,
+            "title":"New vue course coming soon!",
+            "body":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quae iste harum accusamus ducimus est animi eligendi distinctio reiciendis deleniti?",
+            "likes":20
+        } 
+    ],
+    "polls":[
+        {
+            "id":1,
+            "question":"Do you prefer vue or react?",
+            "answerA":"Vue",
+            "answerB":"React"
+        }
+
+    ]
+}
+
+
+
+
+
