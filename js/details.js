@@ -2,13 +2,14 @@ const id=new URLSearchParams(window.location.search).get("id");
 const container = document.querySelector(".details");
 
 const renderDetails=async () =>{
-    const res = await fetch("http://localhost:300/posts/" + id);
+     const res = await fetch("http://localhost:3000/post/" + id); 
     const  post=await res.json();
+    //console.log(post);
     const template=`
     <h1>${post.title}</h1>
     <p>${post.body}</p>
     `
-    container.innerHTML=template;
+    container.innerHTML = template;
 }   
 
 
@@ -17,4 +18,4 @@ const renderDetails=async () =>{
 
 
 
-window.addEventListener("DOMContentLoded", () => renderDetails());
+window.addEventListener("DOMContentLoaded", () => renderDetails());
